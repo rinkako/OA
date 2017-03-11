@@ -57,6 +57,8 @@
 		                    '</li>' .
                             '<li id="active-dutyout"><a href="'. site_url('DutyOut') . '">出勤</a>'.
                             '</li>' .
+                            '<li id="active-filming"><a href="'. site_url('Filming') . '">拍摄</a>'.
+                            '</li>' .
 		                '</ul>' .
 		            '</li>';
 		        }
@@ -71,6 +73,8 @@
 		                    '<li id="active-weeklyReview"><a href="'. site_url('WeeklyReview/weeklyReview') . '">周检</a>' .
 		                    '</li>' .
 		                    '<li id="active-dutyReview"><a href="'. site_url('DutyReview/dutyReview') . '">值班</a>' .
+		                    '</li>' .
+												'<li id="active-temporaryWork"><a href="'. site_url('TemporaryWork/temporaryWork') . '">代班记录</a>' .
 		                    '</li>' .
 												'<li id="active-problem"><a href="'. site_url('Problem/index') . '">故障汇总</a>' .
 												'</li>' .
